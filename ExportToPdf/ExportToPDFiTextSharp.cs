@@ -137,6 +137,7 @@ public class ExportToPDFiTextSharp
 				//' Date - centre, Double Right, String Left, INteger centre
 				// Reads the gridview rows and adds them to the mainTable
 
+
 				for (int rowNo = 0; rowNo <= noOfRows - 1; rowNo++) {
 					foreach (int iCol in lstColumnNums) {
 						if (lstColumnsDisplay.Count > 0 && lstColumnsDisplay.Contains(iCol) == false)
